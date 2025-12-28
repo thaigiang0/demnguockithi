@@ -569,10 +569,12 @@ export default function THPT2025Countdown() {
 
             </p>
             <div className="flex items-center space-x-4">
-              <Button variant="ghost" size="sm" className="text-white/70 ">
+              <Link href="https://link-ung-ho-cua-ban" target="_blank" rel="noopener noreferrer">
+                <Button variant="ghost" size="sm" className="text-white/70">
                   <Heart className="h-4 w-4 mr-2" />
-                Ủng hộ
-              </Button>
+                  Ủng hộ
+                </Button>
+              </Link>
               <div className="flex space-x-2">
                 <div className="w-8 h-8 bg-white/20 hover:bg-white/30 rounded-full flex items-center justify-center">
                   <Link href="https://www.facebook.com/thaigiang311208" target="_blank" rel="noopener noreferrer">
