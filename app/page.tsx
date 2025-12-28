@@ -1,5 +1,6 @@
 "use client"
 
+import { Facebook } from "lucide-react"
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
@@ -575,7 +576,7 @@ export default function THPT2025Countdown() {
               <div className="flex space-x-2">
                 <div className="w-8 h-8 bg-white/20 hover:bg-white/30 rounded-full flex items-center justify-center">
                   <Link href="https://www.facebook.com/thaigiang311208" target="_blank" rel="noopener noreferrer">
-                    <FacebookIcon className="h-4 w-4 text-white" />
+                    <Facebook className="h-4 w-4 text-white" />
                   </Link>
                 </div>
               </div>
