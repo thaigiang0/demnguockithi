@@ -569,7 +569,7 @@ export default function THPT2025Countdown() {
 
             </p>
             <div className="flex items-center space-x-4">
-              <Link href="/qr.html" target="_blank" rel="noopener noreferrer">
+              <Link href="https://thaigiang0.github.io/qr/" target="_blank" rel="noopener noreferrer">
                 <Button variant="ghost" size="sm" className="text-white/70">
                   <Heart className="h-4 w-4 mr-2" />
                   Ủng hộ
